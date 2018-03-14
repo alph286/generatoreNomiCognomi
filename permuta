@@ -1,0 +1,11 @@
+for w1 in $(shuf -n 100 nomi)
+do 
+  for w2 in $(shuf -n 100 cognomi)
+  do
+    space=" "
+    word=${w1}${space}${w2}
+    echo ${word} >> permutationfile2
+  done
+done
+shuf -n 100 permutationfile2 >> 100nomiecognomi
+rm permutationfile2
