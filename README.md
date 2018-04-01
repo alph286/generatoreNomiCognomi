@@ -14,9 +14,4 @@ puoi aggiungere nomi e cognomi ai file purchè siano uno per linea
 
 Sto debuggando il fatto che alcuno cognomi abbiano uno spazio all'interno (ad esempio "De Amicis")
 
-il file permuta è un file binario che vorrei provare a convertire in .exe per Windows o in .dmg per Mac
-
-L'ho prodotto usando SHC con questo comando
-shc -f permutaSOURCE.sh -o permuta
-
-il file permutaSOURCE.sh è nella cartella /src
+il file permutaSOURCE.sh è nella cartella /src ed è la versione subito precedente
